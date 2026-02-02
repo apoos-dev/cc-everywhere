@@ -1,0 +1,2 @@
+# Exclude config.md from Prettier formatting
+src/pages/config.md
