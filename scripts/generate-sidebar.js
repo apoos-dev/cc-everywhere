@@ -3,7 +3,7 @@ const path = require("path");
 
 const SIDEBAR_JSON_PATH = path.join(__dirname, "api-refs-sidebar.json");
 const INDENT_SIZE = 4;
-const INITIAL_DEPTH = 2; // Starts at 2 levels deep (8 spaces) to match config.md structure under "API References"
+const INITIAL_DEPTH = 1; // Starts at 1 level deep (4 spaces) to match config.md structure under "API References"
 
 function cleanPath(p) {
   if (!p) return "";
@@ -16,7 +16,8 @@ function generateMarkdown(items, depth) {
 
   items.forEach((item) => {
     const title = item.title;
-    const url = cleanPath(item.path);
+    // const url = cleanPath(item.path);
+    const url = item.path;
 
     // Construct the markdown line
     let line = `${indent}- `;
@@ -44,7 +45,7 @@ try {
   const content = fs.readFileSync(SIDEBAR_JSON_PATH, "utf8");
   const json = JSON.parse(content);
 
-  console.log("    - [API References](v4/index.md) header");
+  console.log("    - APIs Reference header");
   const markdown = generateMarkdown(json, INITIAL_DEPTH);
   console.log(markdown);
 } catch (error) {
