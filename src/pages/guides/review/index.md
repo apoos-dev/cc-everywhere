@@ -76,7 +76,7 @@ Verify that you're using the appropriate namespace (Full Editor, Quick Actions, 
 
 ### Appropriate brand usage
 
-Read our brand guidelines. Before you submit your integration for review, please read our [brand guidelines](https://drive.google.com/file/d/11ZK8FR4vLGoeQJRCEa_g7rW6rs8s-5l7/view?usp=sharing). To adhere to our brand requirements, you can [download the assets here](https://developer.adobe.com/distribute/cc-brand-assets).
+Read our brand guidelines. Before you submit your integration for review, please read our [brand guidelines](https://raw.githubusercontent.com/AdobeDocs/cc-everywhere/refs/heads/main/src/pages/assets/Adobe_Express_Developer_Program_brand_guide_100625.pdf) to our brand requirements, you can [download the assets here](https://developer.adobe.com/distribute/cc-brand-assets).
 
 ### Inappropriate content
 
@@ -130,7 +130,7 @@ Describe what your app does, to help Adobe review it for approval.
 
 ### 3. Notes to reviewer
 
-Make sure you’ve included the following in the **Notes to reviewer** feild.
+Make sure you’ve included the following in the **Notes to reviewer** field.
 
 1. **Test credentials** for your integration.
 2. **Workflow** of your integration within your product (URL, step-by-step instructions, and more.)
