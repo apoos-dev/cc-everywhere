@@ -4,7 +4,8 @@ const { execSync } = require("child_process");
 
 const CONFIG_PATH = path.join(__dirname, "../src/pages/config.md");
 const GENERATE_SCRIPT = path.join(__dirname, "generate-sidebar.js");
-const HEADER_MARKER = "    - [API References](v4/index.md) header";
+const HEADER_MARKER = "    - APIs Reference header";
+// const HEADER_MARKER = "    - [API References](v4/index.md) header";
 
 try {
   // 1. Create a backup
