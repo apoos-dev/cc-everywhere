@@ -43,7 +43,7 @@ Embed SDK v1 and v2 have reached End of Life on **May 2025** and they're no long
 
 ### Documentation
 
-- Added a new [Template Browser concept guide](../concepts/browse-template.md) that covers the implementation details of the new Template Browser experience.
+- Added a new [Template Browser concept guide](../concepts/template-browser.md) that covers the implementation details of the new Template Browser experience.
 
 ## [4.38.19] 2025-11-10
 
@@ -163,7 +163,6 @@ Added comprehensive style enumerations to provide granular control over image ge
 - [**`CCEverywhere.module.editImage()`**](../../v4/sdk/src/workflows/3p/module-workflow/classes/module-workflow.md): Introduced a [new Edit Image v2 experience](../concepts/edit-image-v2.md), rearchitected to deliver significantly improved performance and a better user experience.
 
   **Key Features:**
-
   - **Reduced load times** in the range of 35% to 50%.
   - **Reduced memory consumption** by 35%.
   - **New modular UI** with improved user experience and implementation of the new Adobe Spectrum 2 design system.
