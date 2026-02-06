@@ -1,5 +1,5 @@
 ---
-hideEditInGitHub : true
+hideEditInGitHub: true
 ---
 
 <GetCredential jsonDefinition="../../credential/getcredential.json" />
