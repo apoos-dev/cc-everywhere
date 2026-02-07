@@ -10,6 +10,7 @@
         - [v2 Reference](/v2/reference/index.md) - 🪦 End of Life May 2025
         - [v1 Reference](/v1/reference/index.md) - 🪦 End of Life May 2025
     - [Community](https://developer.adobe.com/express/community?aio_external)
+    - [Get Credentials](/guides/credential/index.md)
 
 
 - subPages:
