@@ -1,7 +1,7 @@
 ---
 hideEditInGitHub: true
 hideLogIssue: true
-hideCopyMarkDown: true
+hideCopyMarkdown: true
 ---
 
 <GetCredential jsonDefinition="../../credential/getcredential.json" />
